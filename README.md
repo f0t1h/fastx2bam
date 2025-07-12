@@ -44,3 +44,10 @@ make install INSTALLATION_DIR=/path/to/installation/dir
 fastx2bam --version
 ```
 
+## Dependencies
+### Compilation
+- gcc
+- zlib
+
+### Running
+- samtools
