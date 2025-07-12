@@ -34,7 +34,7 @@ Rename query names in the conversion:
 Add a prefix and suffix to the query names:
     fastx2bam --rename --prefix R --suffix /ccs input.fq output.bam
 
-Use 4 threads with samtools:
+Use 4 threads with samtools with custom header:
     fastx2bam --threads 4 input.fq output.bam --header header.sam
 
 ## Installation
