@@ -41,6 +41,6 @@ Use 4 threads with samtools:
 ```
 make
 make install INSTALLATION_DIR=/path/to/installation/dir
-./fastx2bam --version
+fastx2bam --version
 ```
 
